@@ -18,6 +18,7 @@
             var button = $(wrapper).find('div.jp-audio > div.player-bottom > a.btn-download');
             button.attr({
                 'href': audio.attr('src'),
+                'target': '_blank',
                 'onclick': null
             });
         });
